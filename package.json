@@ -1,0 +1,29 @@
+{
+  "name": "clawdbot-skill-imap",
+  "version": "0.1.0",
+  "description": "IMAP/SMTP email skill for Clawdbot — works with Proton Mail Bridge and any standard IMAP server",
+  "type": "module",
+  "main": "scripts/imapcli.mjs",
+  "bin": {
+    "imapcli": "./scripts/imapcli.mjs"
+  },
+  "scripts": {
+    "test": "node scripts/imapcli.mjs folders"
+  },
+  "dependencies": {
+    "imapflow": "^1.0.163",
+    "nodemailer": "^6.9.8",
+    "commander": "^11.1.0"
+  },
+  "keywords": ["imap", "email", "smtp", "proton", "cli", "clawdbot", "skill"],
+  "author": "Clawdbot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clawdbot/imap-skill.git"
+  },
+  "homepage": "https://github.com/clawdbot/imap-skill#readme",
+  "bugs": {
+    "url": "https://github.com/clawdbot/imap-skill/issues"
+  }
+}
