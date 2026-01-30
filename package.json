@@ -16,14 +16,14 @@
     "commander": "^11.1.0"
   },
   "keywords": ["imap", "email", "smtp", "proton", "cli", "clawdbot", "skill"],
-  "author": "Clawdbot",
+  "author": "Amalfiblue",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clawdbot/imap-skill.git"
+    "url": "git+https://github.com/amalfiblue/clawdbot-skill-imap.git"
   },
-  "homepage": "https://github.com/clawdbot/imap-skill#readme",
+  "homepage": "https://github.com/amalfiblue/clawdbot-skill-imap#readme",
   "bugs": {
-    "url": "https://github.com/clawdbot/imap-skill/issues"
+    "url": "https://github.com/amalfiblue/clawdbot-skill-imap/issues"
   }
 }
